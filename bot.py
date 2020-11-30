@@ -41,7 +41,7 @@ def help(update, context):
 
 def echo(update, context):
     """Echo the user message."""
-    update.message.reply_text(update.message.text)
+    update.message.reply_text(update.message.text+' доп строка')
 
 
 def error(update, context):
