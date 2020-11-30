@@ -41,7 +41,7 @@ def help(update, context):
 
 def echo(update, context):
     """Echo the user message."""
-    update.message.reply_text(update.message.text+' доп строка ввв')
+    update.message.reply_text(update.message.text+' Наше телефон +7 953 000 00 00')
 
 
 def error(update, context):
